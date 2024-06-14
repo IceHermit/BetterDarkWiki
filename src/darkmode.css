@@ -1,9 +1,10 @@
 :root {
-  --background-color: #112;
-  --text-color: #abb2bf;
-  --img-bg-color: #abb2bf00;
+  --background-color: #282a35;
+  --text-color: #ddd;
+  --link-color: #fff4a3;
+  --img-bg-color: #ddd;
+  --button-color: #51427a;
 }
-
 
 h1,
 h2,
@@ -17,7 +18,7 @@ blockquote {
 a,
 .markup--anchor,
 .markup--p-anchor {
-  color: #61afef !important;
+  color: var(--link-color) !important;
 }
 
 img {
@@ -36,9 +37,23 @@ figcaption,
 .catlinks,
 .navbox-abovebelow,
 .vector-menu-heading,
-.hatnote {
+.hatnote,
+.cdx-text-input__input, 
+.hlist
+{
   background-color: var(--background-color) !important;
   color: var(--text-color) !important;
+}
+
+.vector-pinnable-header-toggle-button,
+.cdx-button {
+  background-color: var(--button-color) !important;
+  color: var(--text-color) !important;
+}
+
+.mwe-math-element {
+  overflow: hidden !important;
+  padding: 5px !important;
 }
 
 .vector-sticky-pinned-container::after {
