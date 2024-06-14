@@ -34,3 +34,7 @@ formulae
 Another solution to this problem (the one this extension adopts), is to read the alt-text of the images and inject Latex elements
 to replace the images. Latex elements can be styled using css like any other text, so the font colour can be easily changed to fit
 the dark theme.
+
+<h2> Custom themes </h2>
+
+You can easily change the theme by changing the variables in the css file (<code>/src/darkmode.css</code>)
