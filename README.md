@@ -8,9 +8,8 @@ Have you ever been researching <i> things </i> late into the night and decided t
 If you did then you probably got flashbanged in your eyes by a sudden vastness of bright white.
 
 Easy fix for that though, just download one of the many browser extensions which provide a darkmode for Wikipedia.
-What makes this extension any better than all the other darkmode extensions then?
 
-If you have ever been on articles with any mathematical formulae, you'd soon realise a major flaw with such extensions.
+What makes this extension any better than all the other darkmode extensions then? If you have ever been on articles with any mathematical formulae, you'd soon realise a major flaw with such extensions.
 
 This ->
 
@@ -22,6 +21,7 @@ unless you individually click on each formula and open it in a modal preview
 <b>BetterDarkWiki</b> solves that issue.
 
 <h2> But what caused the issue in the first place? </h2>
+
 The issue with writing a darkmode extension for wikipedia is that these mathematical formulae are actually rendered as images
 These images always have a transparent background with black text on it, and these are image renderings of a Latex notation
 which is stored as the alt-text of the image. 
