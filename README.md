@@ -22,7 +22,7 @@ unless you individually click on each formula and open it in a modal preview
 
 <h2> But what caused the issue in the first place? </h2>
 
-The issue with writing a darkmode extension for wikipedia is that these mathematical formulae are actually rendered as images
+The issue with writing a darkmode extension for wikipedia is that these mathematical formulae are actually rendered as images.
 These images always have a transparent background with black text on it, and these are image renderings of a Latex notation
 which is stored as the alt-text of the image. 
 
