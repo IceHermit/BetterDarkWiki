@@ -1,0 +1,46 @@
+:root {
+  --background-color: #112;
+  --text-color: #abb2bf;
+  --img-bg-color: #abb2bf00;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote {
+  color: var(--text-color) !important;
+}
+
+a,
+.markup--anchor,
+.markup--p-anchor {
+  color: #61afef !important;
+}
+
+img {
+  background-color: var(--img-bg-color) !important;
+}
+
+body,
+figcaption,
+.mw-page-container,
+.mw-header,
+.vector-pinned-container,
+.vector-dropdown-content,
+.navbox,
+.navbox-inner,
+.navbox-title,
+.catlinks,
+.navbox-abovebelow,
+.vector-menu-heading,
+.hatnote {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+.vector-sticky-pinned-container::after {
+  visibility: hidden;
+}
