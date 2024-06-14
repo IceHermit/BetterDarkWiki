@@ -39,8 +39,7 @@ the dark theme.
 
 You can easily change the theme by changing the variables in the css file (<code>/src/darkmode.css</code>).
 
-It's these variables, right at the top of the file.
-
+It's these variables, right at the top of the file: <br>
 <code>:root {
   --background-color: #282a35;
   --text-color: #ddd;
