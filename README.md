@@ -2,7 +2,7 @@
 <i> A browser extension for a better dark-mode for Wikipedia articles </i>
 <hr>
 
-![image](https://github.com/IceHermit/BetterDarkWiki/assets/116965845/9001dfc7-c5eb-42f0-975c-e2bb4781df49)
+![image](https://github.com/IceHermit/BetterDarkWiki/assets/116965845/909f95f9-0ace-4e40-b566-f19f3f542ce9)
 
 Have you ever been researching <i> things </i> late into the night and decided to take help of the largest digital encyclopedia?
 If you did then you probably got flashbanged in your eyes by a sudden vastness of bright white.
@@ -29,9 +29,7 @@ which is stored as the alt-text of the image.
 There could be several reasons for using images instead of dynamically rendering the Latex, but whatever they may be, it makes
 the formulae illegible on any dark background unless you alter the image itself. A fix for that could be to let the images have
 a white background while letting the rest of the webpage be in darkmode, but that doesn't look as good, especially with inline
-formulae ->
-
-![image](https://github.com/IceHermit/BetterDarkWiki/assets/116965845/808d1d6d-3128-4e5a-b0d8-b40e171b3cc1)
+formulae
 
 Another solution to this problem (the one this extension adopts), is to read the alt-text of the images and inject Latex elements
 to replace the images. Latex elements can be styled using css like any other text, so the font colour can be easily changed to fit
