@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Better Darkmode for Wiki",
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": [
+        "https://en.wikipedia.org/*"
+      ],
+      "js": [
+        "main.js",
+        "tex-chtml.js"
+      ],
+      "css": [
+        "darkmode.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [],
+      "matches": [
+        "https://en.wikipedia.org/*"
+      ]
+    }
+  ]
+}
