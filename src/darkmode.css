@@ -27,6 +27,7 @@ img {
 
 body,
 figcaption,
+th,
 .mw-page-container,
 .mw-header,
 .vector-pinned-container,
@@ -39,8 +40,15 @@ figcaption,
 .vector-menu-heading,
 .hatnote,
 .cdx-text-input__input, 
-.hlist
-{
+.hlist,
+.infobox,
+.mwe-popups-container,
+.mbox-text,
+.mbox-image,
+.sidebar-navbar,
+.wikitable,
+.portalbox,
+.sidebar{
   background-color: var(--background-color) !important;
   color: var(--text-color) !important;
 }
